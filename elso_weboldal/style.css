@@ -1,6 +1,7 @@
 
 body {
     background-color: #488ccd;
+    font-family: 'Montserrat', sans-serif;
     width: 800px;
     color: white;
     /*alu fölül 0 a margó, jobbra balra pedig automatikus */
