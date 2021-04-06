@@ -1,0 +1,33 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+font-family: Verdana, Geneva, sans-serif, Arial, Helvetica;
+background-color: black;
+color: white;
+padding: 0 100px 0 100px;
+
+}
+
+.main-menu {
+width: 400px;
+border-bottom: 3px solid #689fd2;
+text-align: center;
+align-self: center;
+}
+
+.main-menu-item {
+    display: inline-block;
+}
+
+.main-menu-item a {
+    display: block;
+    text-decoration: none;
+    color: #e9e4ff;
+    width: 70px;
+    padding: 10px 10px;
+}
+
