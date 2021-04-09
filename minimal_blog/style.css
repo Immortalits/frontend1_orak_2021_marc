@@ -8,26 +8,39 @@ body {
 font-family: Verdana, Geneva, sans-serif, Arial, Helvetica;
 background-color: black;
 color: white;
-padding: 0 100px 0 100px;
-
 }
 
 .main-menu {
-width: 400px;
-border-bottom: 3px solid #689fd2;
+width: 50%;
+border-bottom: 4px solid #800404;
 text-align: center;
-align-self: center;
+margin: 0 auto;
+padding-bottom: 20px;
 }
 
 .main-menu-item {
-    display: inline-block;
+    display:inline-block;
 }
-
 .main-menu-item a {
-    display: block;
     text-decoration: none;
-    color: #e9e4ff;
-    width: 70px;
-    padding: 10px 10px;
+    color: hsl(34, 78%, 42%);
+    width: 100px;
+    padding: 0 10px 0 10px;
 }
 
+.created-date {
+    color: darkslategrey;
+}
+
+time {
+    padding-left: 10px;
+}
+
+.company-image {
+    margin: 0 auto;
+}
+
+additional {
+    display: block;
+    margin: 20px 0 0 0;
+}
