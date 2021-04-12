@@ -1,36 +1,48 @@
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-nav {
-    background-color: black;
-}
-
 body {
-font-family: Verdana, Geneva, sans-serif, Arial, Helvetica;
-background-color: rgb(34, 33, 33);
-color: white;
-margin: 0 auto;
+    font-family: Verdana, Geneva, Arial, Helvetica;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin: 0 auto;
+    background-color: black;
+    /* mivel a cikkek és azok címei vannak csak balra zárva, így az egész body-ra tettem a centering-et, majd azokon külön balra állítottam, így kevesebbszer kell beállítani a centert */
+    text-align: center;
 }
 
 .main-menu {
 width: 50%;
 border-bottom: 4px solid #800404;
-text-align: center;
 margin: 0 auto;
+padding-top: 15px;
 padding-bottom: 20px;
 }
 
 .main-menu-item {
     display:inline-block;
 }
+
 .main-menu-item a {
     text-decoration: none;
     color: hsl(34, 78%, 42%);
     width: 100px;
-    padding: 0 10px 0 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.main-menu-item:hover a {
+    color: white;
+    background-color: rgb(31, 29, 29);
+}
+
+.main-content {
+    margin: 20px 40px 20px 40px;
+    padding: 50px;
+    /* az íves sarok méretét növeli a radius */
+    border-radius: 80px;
+    background-color: grey;
+}
+
+header,
+main {
+    text-align: left;
 }
 
 .created-date {
@@ -41,37 +53,13 @@ time {
     padding-left: 10px;
 }
 
-picture {
-    display: block;
-    width: 30%;
-    margin: 0 auto;
-}
-
-.company-image1 {
-    width: 49%;
-    margin: 0 auto;
-}
-
-.company-image2 {
-    width: 49%;
-    margin: 0 auto;
-}
-
-.company-image3 {
-    display: block;
-    width: 49%;
-    margin: 0 auto;
-}
-
-sub {
-    display: block;
-    width: 14%;
-    margin: 0 auto;
+.image-container {
+padding-left: 15%;
+padding-right: 15%;
 }
 
 footer {
     color: white;
-    display: block;
-    background-color: black;
+    background-color: rgb(24, 22, 22);
     padding: 0 0 80px 0;
 }
